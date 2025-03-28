@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme inline {
+	--color-neutral-light: rgb(228, 220, 213);
+	--color-neutral-dark: rgb(223, 213, 205);
+	--color-primary-100: rgb(55, 44, 27);
+	--color-primary-200: rgb(58, 37, 15);
+	--color-primary: var(--primary);
+}
+
+@layer base {
+	:root {
+		--primary: red;
+	}
+
+	* {
+		@apply transition-colors duration-500 ease-out;
+	}
+
+	.theme-dark {
+		--primary: black;
+	}
+
+	.theme-blue {
+		--primary: blue;
+	}
+}
