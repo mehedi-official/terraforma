@@ -31,7 +31,7 @@
 		<Card />
 	</section>
 
-	<section class="banner flex min-h-176 flex-col gap-4 pt-40 text-center text-white">
+	<section class="banner mt-4 flex min-h-176 flex-col gap-4 pt-40 text-center text-white">
 		<p>Insight</p>
 		<h2 class="text-7xl">Build Your <br /> Sustainable Space</h2>
 	</section>

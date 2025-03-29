@@ -1,5 +1,6 @@
 <script lang="ts">
 	import about_us from '$lib/assets/about-us-image.jpg';
+	import { arrow_right } from '@components/icons/Icons.svelte';
 </script>
 
 <section class="text-primary-200 bg-[#E4DCD5] p-4">
@@ -11,7 +12,10 @@
 			</h2>
 			<h1>About us</h1>
 		</div>
-		<button class=" aspect-square w-10 self-end bg-[#3C240D] text-white"> - </button>
+		<button
+			class="flex aspect-square w-10 items-center justify-center self-end bg-[#3C240D] text-white"
+			>{@render arrow_right()}</button
+		>
 	</div>
 
 	<section class="flex justify-between gap-12">
