@@ -29,7 +29,11 @@
 			<a href="/" class="font-semibold uppercase underline underline-offset-4">Learn More</a>
 		</div>
 		<div class="flex flex-col items-end">
-			<img src={about_us} alt="About us banner" class="aspect-9/4 max-w-135 2xl:aspect-9/6 object-cover" />
+			<img
+				src={about_us}
+				alt="About us banner"
+				class="aspect-9/4 max-w-135 object-cover 2xl:aspect-9/6"
+			/>
 		</div>
 	</section>
 </section>

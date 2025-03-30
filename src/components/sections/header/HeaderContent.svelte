@@ -1,3 +1,8 @@
+<script lang="ts">
+	import small_banner from '$lib/assets/header_small_banner.jpg';
+	import { arrow_right } from '@components/icons/Icons.svelte';
+</script>
+
 <section class="mt-32 grid grid-cols-[3fr_1fr]">
 	<section class=" text-primary-200">
 		<section class="w-fit">
@@ -15,9 +20,12 @@
 	</section>
 
 	<section>
-		<div>
-			<img src="" alt="" />
-			<button>arrow</button>
+		<div class="relative aspect-square w-28.5">
+			<img src={small_banner} alt="Small Banner" class="h-full w-full object-cover" />
+			<button
+				class="absolute bottom-0 left-0 flex aspect-square w-8 items-center justify-center bg-[#3C240D]"
+				>{@render arrow_right()}</button
+			>
 		</div>
 
 		<p class=" text-primary-100">
