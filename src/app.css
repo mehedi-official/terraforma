@@ -1,6 +1,39 @@
 @import 'tailwindcss';
 
+@font-face {
+	font-family: 'ITC Garamond';
+	src:
+		local('ITC Garamond Condensed Book'),
+		local('ITC-Garamond-Condensed-Book'),
+		url('$lib/fonts/ITCGaramondStd-BkCond.woff') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pseudonym';
+	src:
+		local('Pseudonym'),
+		local('Pseudonym Regular'),
+		local('Pseudonym-Regular'),
+		url('$lib/fonts/Pseudonym-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pseudonym';
+	src:
+		local('Pseudonym Medium'),
+		local('Pseudonym-Medium'),
+		url('$lib/fonts/Pseudonym-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
 @theme inline {
+	--font-serif: 'ITC Garamond';
+	--font-sans: 'Pseudonym';
 	--color-neutral-light: rgb(228, 220, 213);
 	--color-neutral-dark: rgb(223, 213, 205);
 	--color-primary-100: rgb(55, 44, 27);

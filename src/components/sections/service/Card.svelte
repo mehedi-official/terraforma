@@ -3,10 +3,10 @@
 </script>
 
 <section class="flex min-h-132 flex-col justify-between bg-[#E4DCD5] p-4">
-	<h3 class="text-5xl">Sustainable Architecture Design</h3>
+	<h3 class="max-w-80 font-serif text-6xl">Sustainable Architecture Design</h3>
 
 	<div class="flex flex-col gap-3">
-		<p class=" text-justify">
+		<p class="text-justify text-lg">
 			Our experts guide you through the process of creating environmentally structures that align
 			with your goals.
 		</p>

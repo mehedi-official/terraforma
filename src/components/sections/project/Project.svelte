@@ -16,7 +16,7 @@
 
 <section class="text-primary-200 grid grid-cols-[2fr_3fr] gap-6 bg-[#DFD5CD] p-4">
 	<section class="flex flex-col justify-between gap-6">
-		<p class=" max-w-110">
+		<p class="max-w-110 text-lg">
 			Every project reflects our commitment to creating environmentally conscious designs that
 			inspire and serve future generations
 		</p>
@@ -26,12 +26,14 @@
 	</section>
 	<section>
 		<div class="flex justify-between gap-6">
-			<h2 class="mt-6 max-w-118 text-5xl">Innovative Spaces, Designed Sustainably</h2>
-			<h1>Projects</h1>
+			<h2 class="mt-6 max-w-118 font-serif text-6xl">Innovative Spaces, Designed Sustainably</h2>
+			<h1 class="text-lg/normal">Projects</h1>
 		</div>
 		<section class="border-primary-200 mt-12 border-t">
 			{#each services as { name, detail }}
-				<div class="border-primary-200 flex items-center justify-between gap-4 border-b py-5">
+				<div
+					class="border-primary-200 flex items-center justify-between gap-4 border-b py-5 text-lg/normal"
+				>
 					<p>{name}</p>
 					<p>{detail}</p>
 				</div>

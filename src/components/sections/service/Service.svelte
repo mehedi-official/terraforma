@@ -7,12 +7,12 @@
 <section class="text-primary-200 bg-[#DFD5CD] p-4">
 	<section class="flex flex-col gap-16">
 		<div class="grid grid-cols-[7fr_9.5fr]">
-			<h1>Services</h1>
+			<h1 class="text-lg/normal">Services</h1>
 			<div class="mt-11 flex items-end justify-between gap-4">
-				<h2 class="max-w-128 text-5xl tracking-tight">
+				<h2 class="max-w-132 font-serif text-6xl">
 					Crafting Sustainable Solutions for Every Space
 				</h2>
-				<a href="/" class="uppercase underline underline-offset-4">View All</a>
+				<a href="/" class="text-lg/normal uppercase underline underline-offset-4">View All</a>
 			</div>
 		</div>
 		<div class="flex gap-3 self-end">
@@ -32,8 +32,8 @@
 	</section>
 
 	<section class="banner mt-4 flex min-h-176 flex-col gap-4 pt-40 text-center text-white">
-		<p>Insight</p>
-		<h2 class="text-7xl">Build Your <br /> Sustainable Space</h2>
+		<p class="text-lg/normal">Insight</p>
+		<h2 class="font-serif text-8xl">Build Your <br /> Sustainable Space</h2>
 	</section>
 </section>
 
