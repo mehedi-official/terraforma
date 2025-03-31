@@ -3,7 +3,7 @@
 </script>
 
 <section class="text-primary-200 grid gap-4 py-6 text-base/normal">
-	<div class="grid grid-cols-[6fr_4fr]">
+	<div class="grid grid-cols-2 sm:grid-cols-[6fr_4fr]">
 		<p>Eco retreat villas</p>
 		<div class="flex justify-between">
 			<p>2023</p>

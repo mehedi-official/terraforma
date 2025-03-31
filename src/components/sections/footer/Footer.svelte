@@ -3,7 +3,7 @@
 </script>
 
 <section class="text-primary-200 flex justify-between bg-[#E4DCD5] p-4 pb-36">
-	<h1 class="max-w-200 font-serif text-9xl">Create Your Sustainable Space</h1>
+	<h1 class="max-w-200 font-serif text-5xl sm:text-9xl">Create Your Sustainable Space</h1>
 	<div>{@render arrow_up_right()}</div>
 </section>
 
@@ -19,7 +19,7 @@
 
 		<section>
 			<ul
-				class="flex items-center gap-6 text-base/normal *:hover:underline-offset-2 *:not-even:hover:underline"
+				class="hidden items-center gap-6 text-xs/normal *:hover:underline-offset-2 *:not-even:hover:underline sm:flex sm:text-base/normal"
 			>
 				<li><a href="/">About us</a></li>
 				<span>/</span>
@@ -34,7 +34,8 @@
 		</section>
 	</section>
 
-	<span class="absolute right-6 bottom-0 translate-y-8 font-serif text-9xl text-[#4E3624]"
+	<span
+		class="absolute right-6 bottom-0 translate-y-4 font-serif text-7xl text-[#4E3624] sm:translate-y-8 sm:text-9xl"
 		>Terraforma</span
 	>
 </footer>

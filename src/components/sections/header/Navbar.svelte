@@ -4,7 +4,7 @@
 
 <nav class="text-primary-100 flex items-start justify-between">
 	<ul
-		class="flex items-center gap-6 *:text-base/normal *:hover:underline-offset-2 *:not-even:hover:underline"
+		class="hidden items-center gap-6 *:text-base/normal *:hover:underline-offset-2 *:not-even:hover:underline sm:flex"
 	>
 		<li><a href="/">About us</a></li>
 		<span>/</span>

@@ -14,7 +14,7 @@
 	];
 </script>
 
-<section class="text-primary-200 grid grid-cols-[2fr_3fr] gap-6 bg-[#DFD5CD] p-4">
+<section class="text-primary-200 grid gap-6 bg-[#DFD5CD] p-4 sm:grid-cols-[2fr_3fr]">
 	<section class="flex flex-col justify-between gap-6">
 		<p class="max-w-110 text-lg">
 			Every project reflects our commitment to creating environmentally conscious designs that
@@ -25,14 +25,16 @@
 		</div>
 	</section>
 	<section>
-		<div class="flex justify-between gap-6">
-			<h2 class="mt-6 max-w-118 font-serif text-6xl">Innovative Spaces, Designed Sustainably</h2>
+		<div class="flex flex-col-reverse justify-between gap-6 sm:flex-row">
+			<h2 class="max-w-118 font-serif text-5xl sm:mt-6 sm:text-6xl">
+				Innovative Spaces, Designed Sustainably
+			</h2>
 			<h1 class="text-lg/normal">Projects</h1>
 		</div>
 		<section class="border-primary-200 mt-12 border-t">
 			{#each services as { name, detail }}
 				<div
-					class="border-primary-200 flex items-center justify-between gap-4 border-b py-5 text-lg/normal"
+					class="border-primary-200 flex items-center justify-between gap-4 border-b py-5 text-sm/normal sm:text-lg/normal"
 				>
 					<p>{name}</p>
 					<p>{detail}</p>

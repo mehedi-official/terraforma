@@ -6,10 +6,10 @@
 
 <section class="text-primary-200 bg-[#DFD5CD] p-4">
 	<section class="flex flex-col gap-16">
-		<div class="grid grid-cols-[7fr_9.5fr]">
+		<div class="grid sm:grid-cols-[7fr_9.5fr]">
 			<h1 class="text-lg/normal">Services</h1>
-			<div class="mt-11 flex items-end justify-between gap-4">
-				<h2 class="max-w-132 font-serif text-6xl">
+			<div class="mt-11 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+				<h2 class="max-w-132 font-serif text-5xl sm:text-6xl">
 					Crafting Sustainable Solutions for Every Space
 				</h2>
 				<a href="/" class="text-lg/normal uppercase underline underline-offset-4">View All</a>
@@ -25,15 +25,17 @@
 		</div>
 	</section>
 
-	<section class="mt-4 grid grid-cols-3 gap-4">
+	<section class="mt-4 grid gap-4 sm:grid-cols-3">
 		<Card />
 		<Card />
 		<Card />
 	</section>
 
-	<section class="banner mt-4 flex min-h-176 flex-col gap-4 pt-40 text-center text-white">
+	<section
+		class="banner mt-4 flex min-h-146 flex-col gap-4 pt-40 text-center text-white sm:min-h-176"
+	>
 		<p class="text-lg/normal">Insight</p>
-		<h2 class="font-serif text-8xl">Build Your <br /> Sustainable Space</h2>
+		<h2 class="font-serif text-5xl sm:text-8xl">Build Your <br /> Sustainable Space</h2>
 	</section>
 </section>
 
